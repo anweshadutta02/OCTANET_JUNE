@@ -1,0 +1,146 @@
+body {
+    background-color: #F0DFC8;
+    opacity: 1 !important; 
+}
+
+.nav-item{
+    padding-right: 20px;
+}
+.nav-link{
+    color: black;
+    font-weight: 300;
+}
+.nav-button{
+    background-color: #E16539 !important;
+    border-radius: 0% !important;
+    border-color: #E16539 !important;
+}
+.text{
+    padding-top: 50px;
+}
+.tag-line{
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    padding-bottom: 10px;
+    color: #E16539;
+}
+.main-line{
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 100px;
+    text-overflow: clip;
+}
+.background-image{
+    background-image: url("images/background.jpeg");
+    min-height: 820px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+}
+.care{
+    border-bottom: 1px;
+    font-weight: bold;
+}
+.more button{
+    margin-top: 50px;
+    border-radius: 5px;
+    margin-left: 30px;
+    width: 180px !important;
+    height: 50px;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: #303030;
+    border-color: #303030;
+}
+
+.order{
+    background-color: #E16539 !important;
+    border-color: #E16539 !important;
+}
+
+.icon{
+    background-color: #303030;
+    height: 200px;
+}
+
+.social{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.social .btn{
+    background-color: #303030 !important;
+    border-color: #303030!important;
+    color: white;
+    min-width: 40px;
+}
+.social .btn:hover{
+    background-color: #F0DFC8 !important;
+    border-color: #F0DFC8 !important;
+    color: #E16539 !important;
+}
+
+  nav ul {
+    list-style: none;
+    text-align: center;
+  }
+  nav ul li {
+    display: inline-block;
+  }
+  nav ul li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #E16539;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 10px;
+  }
+  nav ul li a,
+  nav ul li a:after,
+  nav ul li a:before {
+    transition: all .5s;
+  }
+  nav ul li a:hover {
+    color: #E16539;
+  }
+  
+  nav.fill ul li a {
+    position: relative;
+  }
+ 
+  nav.fill ul li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #E16539;
+    height: 1px;
+  }
+  nav.stroke ul li a:hover:after {
+    width: 100%;
+  }
+  
+  nav.fill ul li a {
+    transition: all 0.5s;
+  }
+  
+  nav.fill ul li a:hover {
+    color: #E16539;
+    z-index: 1;
+    font-weight: bold;
+  }
+ 
+  
+  button:hover{
+    background-color: #F0DFC8 !important;
+    border-color: #F0DFC8 !important;
+    color: #E16539 !important;
+    font-weight: bold;
+  }
